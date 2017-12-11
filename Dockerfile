@@ -53,7 +53,7 @@ RUN rm -Rf /tmp/*
 ##Uncomment the following line to break the cache and pull the new source from git (if this has changed)
 #ADD http://www.random.org/strings/?num=10&len=8&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new uuid
 RUN mkdir /home/feature-extraction-tools
-RUN git clone https://gitlab.com/italianlp-wieling/genrenlptools.git /home/feature-extraction-tools
+RUN git clone https://gitlab.com/anon-submission/genrenlptools.git /home/feature-extraction-tools
 
 # download the grafting-genreclassification software
 RUN mkdir /home/grafting-genreclassification
